@@ -1,7 +1,213 @@
 <table directory="assets">
-	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
-		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+	<add from_db="true" path="units/pd2_dlc_casino/architecture/cas_elevator_door/cas_elevator_door" type="unit">
+		<material_config path="units/pd2_dlc_casino/architecture/cas_elevator_door/cas_elevator_door" unload="true"/>
+		<object path="units/pd2_dlc_casino/architecture/cas_elevator_door/cas_elevator_door" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/architecture/cas_elevator_door/cas_elevator_door" unload="true"/>
+		<unit path="units/pd2_dlc_casino/architecture/cas_elevator_door/cas_elevator_door" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_vehicles/cara_69sedan" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_vehicles/cara_69sedan" unload="true"/>
+		<object path="units/pd2_dlc2/csgo_models/props_vehicles/cara_69sedan" unload="true"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_vehicles/cara_69sedan" unload="true"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_vehicles/cara_69sedan" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_exterior" type="unit">
+		<material_config path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft" unload="true"/>
+		<object path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_exterior" unload="true"/>
+		<sequence_manager path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_exterior" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_exterior" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster" type="unit">
+		<material_config path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft" unload="true"/>
+		<object path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_left" type="unit">
+		<material_config path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft" unload="true"/>
+		<object path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_left" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_left" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft" type="unit">
+		<material_config path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft" unload="true"/>
+		<object path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_right" type="unit">
+		<material_config path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft" unload="true"/>
+		<object path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_right" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_right" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_topp_left" type="unit">
+		<material_config path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft" unload="true"/>
+		<object path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_topp_left" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_topp_left" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_topp_right" type="unit">
+		<material_config path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft" unload="true"/>
+		<object path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_topp_right" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_elevator_shaft/com_int_election_elevator_shaft_plaster_topp_right" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/architecture/dah_elevator/dah_elevator_shaft" type="unit">
+		<material_config path="units/pd2_dlc_dah/architecture/dah_elevator/dah_elevator" unload="true"/>
+		<object path="units/pd2_dlc_dah/architecture/dah_elevator/dah_elevator_shaft" unload="true"/>
+		<unit path="units/pd2_dlc_dah/architecture/dah_elevator/dah_elevator_shaft" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_nmh/architecture/nmh_architecture_elevator_shaft/nmh_architecture_elevator_shaft" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/indoor_lamp_v2" unload="true"/>
+		<material_config path="units/pd2_dlc_nmh/architecture/nmh_architecture_elevator_shaft/nmh_architecture_elevator_shaft" unload="true"/>
+		<object path="units/pd2_dlc_nmh/architecture/nmh_architecture_elevator_shaft/nmh_architecture_elevator_shaft" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_nmh/architecture/nmh_architecture_elevator_shaft/nmh_architecture_elevator_shaft" unload="true"/>
+		<unit path="units/pd2_dlc_nmh/architecture/nmh_architecture_elevator_shaft/nmh_architecture_elevator_shaft" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_red/architecture/red_int_elevator_shaft/red_int_elevator_shaft" type="unit">
+		<material_config path="units/pd2_dlc_red/architecture/red" unload="true"/>
+		<object path="units/pd2_dlc_red/architecture/red_int_elevator_shaft/red_int_elevator_shaft" unload="true"/>
+		<unit path="units/pd2_dlc_red/architecture/red_int_elevator_shaft/red_int_elevator_shaft" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_red/architecture/red_int_elevator_shaft/red_int_elevator_shaft_02" type="unit">
+		<material_config path="units/pd2_dlc_red/architecture/red" unload="true"/>
+		<object path="units/pd2_dlc_red/architecture/red_int_elevator_shaft/red_int_elevator_shaft_02" unload="true"/>
+		<unit path="units/pd2_dlc_red/architecture/red_int_elevator_shaft/red_int_elevator_shaft_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_spa/architecture/int/spa_int_election_elevator_shaft/spa_int_election_elevator_shaft_plaster" type="unit">
+		<material_config path="units/pd2_dlc_spa/architecture/int/spa_int_election_elevator_shaft/spa_int_election_elevator_shaft" unload="true"/>
+		<object path="units/pd2_dlc_spa/architecture/int/spa_int_election_elevator_shaft/spa_int_election_elevator_shaft_plaster" unload="true"/>
+		<unit path="units/pd2_dlc_spa/architecture/int/spa_int_election_elevator_shaft/spa_int_election_elevator_shaft_plaster" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_spa/architecture/int/spa_int_election_elevator_shaft/spa_int_election_elevator_shaft_plaster_topp" type="unit">
+		<material_config path="units/pd2_dlc_spa/architecture/int/spa_int_election_elevator_shaft/spa_int_election_elevator_shaft" unload="true"/>
+		<object path="units/pd2_dlc_spa/architecture/int/spa_int_election_elevator_shaft/spa_int_election_elevator_shaft_plaster_topp" unload="true"/>
+		<unit path="units/pd2_dlc_spa/architecture/int/spa_int_election_elevator_shaft/spa_int_election_elevator_shaft_plaster_topp" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight" type="unit">
+		<unit path="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight" unload="true"/>
+		<object path="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight" unload="true"/>
+		<material_config path="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight" unload="true"/>
+		<sequence_manager path="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight" unload="true"/>
+		<unit path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window_debris" unload="true"/>
+		<object path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window_debris" unload="true"/>
+		<material_config path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window" unload="true"/>
+		<sequence_manager path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window_debris" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_grunge" type="unit">
+		<unit path="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_grunge" unload="true"/>
+		<object path="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_grunge" unload="true"/>
+		<material_config path="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_grunge" unload="true"/>
+		<sequence_manager path="units/pd2_dlc2/architecture/hcm_ext_roof_top/hcm_ext_roof_top_window_skylight_grunge" unload="true"/>
+		<unit path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window_debris" unload="true"/>
+		<object path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window_debris" unload="true"/>
+		<material_config path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window" unload="true"/>
+		<sequence_manager path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_roof_window_debris" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall" type="unit">
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall" unload="true"/>
+		<material_config path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall" unload="true"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_6" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_6" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_6" unload="true"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_01" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_01" unload="true"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_03" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_03" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_4" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_4" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_4" unload="true"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_02" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_02" unload="true"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_5" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_5" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_5" unload="true"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_1" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_1" unload="true"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_2" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_2" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_2" unload="true"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_3" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_3" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_3" unload="true"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_7" unload="true"/>
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_7" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_7" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/mallcrasher_window_large" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chca/architecture/int/chca_int_casino_skylight/chca_int_casino_skylight" type="unit">
+		<material_config path="units/pd2_dlc_chca/architecture/int/chca_int_casino_skylight/chca_int_casino_skylight" unload="true"/>
+		<object path="units/pd2_dlc_chca/architecture/int/chca_int_casino_skylight/chca_int_casino_skylight" unload="true"/>
+		<unit path="units/pd2_dlc_chca/architecture/int/chca_int_casino_skylight/chca_int_casino_skylight" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_skylight_barrier_hack/cas_skylight_barrier_hack" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_skylight_barrier_hack/cas_skylight_barrier_hack" unload="true"/>
+		<object path="units/pd2_dlc_casino/props/cas_skylight_barrier_hack/cas_skylight_barrier_hack" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_skylight_barrier_hack/cas_skylight_barrier_hack" unload="true"/>
+		<unit path="units/pd2_dlc_casino/props/cas_skylight_barrier_hack/cas_skylight_barrier_hack" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_skylight_control_panel/cas_skylight_control_panel" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_skylight_control_panel/cas_skylight_control_panel" unload="true"/>
+		<object path="units/pd2_dlc_casino/props/cas_skylight_control_panel/cas_skylight_control_panel" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_skylight_control_panel/cas_skylight_control_panel" unload="true"/>
+		<unit path="units/pd2_dlc_casino/props/cas_skylight_control_panel/cas_skylight_control_panel" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_skylight_01" type="unit">
+		<material_config path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_facade_01" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<object path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_skylight_01" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_skylight_01" unload="true"/>
+		<unit path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_skylight_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_skylight_02" type="unit">
+		<material_config path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_facade_01" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<object path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_skylight_02" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_skylight_02" unload="true"/>
+		<unit path="units/pd2_dlc_pex/architecture/ext/pex_ext_police_station_facade/pex_ext_police_station_skylight_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_e_ext/hcm_e_ext_top_d_8x8m_inst" type="unit">
+		<material_config path="units/payday2/architecture/hcm_e_ext/hcm_e_ext_top" unload="true"/>
+		<object path="units/payday2/architecture/hcm_e_ext/hcm_e_ext_top_d_8x8m_inst" unload="true"/>
+		<unit path="units/payday2/architecture/hcm_e_ext/hcm_e_ext_top_d_8x8m_inst" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext_top_b_4x8m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext" unload="true"/>
+		<object path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext_top_b_4x8m" unload="true"/>
+		<unit path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext_top_b_4x8m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm_i_ext/hcm_i_ext_top_trim_mirrored_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm_i_ext/hcm_i_ext_mid" unload="true"/>
+		<object path="units/payday2/architecture/hcm_i_ext/hcm_i_ext_top_trim_mirrored_a" unload="true"/>
+		<unit path="units/payday2/architecture/hcm_i_ext/hcm_i_ext_top_trim_mirrored_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext_top_a_windowed_8x8m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext" unload="true"/>
+		<object path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext_top_a_windowed_8x8m" unload="true"/>
+		<unit path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext_top_a_windowed_8x8m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext_top_corner_a_2x8m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext" unload="true"/>
+		<object path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext_top_corner_a_2x8m" unload="true"/>
+		<unit path="units/pd2_dlc2/architecture/hcm_k_ext/hcm_k_ext_top_corner_a_2x8m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_glace/architecture/glc_ext_waste_chute/glc_ext_waste_chute" type="unit">
+		<material_config path="units/pd2_dlc_glace/architecture/glc_ext_waste_chute/glc_ext_waste_chute" unload="true"/>
+		<object path="units/pd2_dlc_glace/architecture/glc_ext_waste_chute/glc_ext_waste_chute" unload="true"/>
+		<unit path="units/pd2_dlc_glace/architecture/glc_ext_waste_chute/glc_ext_waste_chute" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_glace/architecture/glc_ext_waste_chute/glc_ext_waste_chute_v2" type="unit">
+		<material_config path="units/pd2_dlc_glace/architecture/glc_ext_waste_chute/glc_ext_waste_chute" unload="true"/>
+		<object path="units/pd2_dlc_glace/architecture/glc_ext_waste_chute/glc_ext_waste_chute_v2" unload="true"/>
+		<unit path="units/pd2_dlc_glace/architecture/glc_ext_waste_chute/glc_ext_waste_chute_v2" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_loot_chute/are_prop_loot_chute" type="unit">
+		<unit path="units/pd2_dlc_arena/props/are_prop_loot_chute/are_prop_loot_chute" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_loot_chute/are_prop_loot_chute" unload="true"/>
+		<material_config path="units/pd2_dlc_arena/props/are_prop_loot_chute/are_prop_loot_chute" unload="true"/>
 	</add>
 </table>
