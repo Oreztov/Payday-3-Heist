@@ -1,0 +1,19 @@
+<dynamic_object>
+    <diesel orientation_object="rp_almir_elec_wall_door" materials="units/payday2/architecture/com_int_election/com_int_election" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+            <object name="dm_marble" collision_type="mesh_mopp"/>
+            <object name="dm_metal" collision_type="mesh_mopp"/>
+            <object name="dm_wood" collision_type="mesh_mopp"/>
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh name="dm_marble"    enabled="true" material="marble"/>
+        <decal_mesh name="dm_metal"     enabled="true" material="metal"/>
+        <decal_mesh name="dm_wood"      enabled="true" material="wood"/>
+    </decal_surfaces>
+    <graphics>
+        <object name="g_trims"      enabled="true"/>
+        <object name="g_wall"   enabled="true"/>
+    </graphics>
+</dynamic_object>

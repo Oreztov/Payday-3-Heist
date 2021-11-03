@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_almir_elec_ceiling" materials="units/payday2/architecture/com_int_election/com_int_election" />
+    <bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="dm_plaster" collision_type="mesh_mopp" />
+        </body>
+    </bodies>
+ 	<decal_surfaces>
+		<decal_mesh name="dm_plaster" enabled="true" material="plaster"/>
+	</decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_ceiling"/>
+    </graphics>
+</dynamic_object>

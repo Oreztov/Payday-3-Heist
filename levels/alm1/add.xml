@@ -1,4 +1,18 @@
 <table directory="assets">
+	<add unload_on_restart="true">
+		<model path="units/pd2_mod_almir/architecture/almir_elec/almir_elec_ceiling" unload="true"/>
+		<object path="units/pd2_mod_almir/architecture/almir_elec/almir_elec_ceiling" unload="true"/>
+		<unit path="units/pd2_mod_almir/architecture/almir_elec/almir_elec_ceiling" unload="true"/>
+		<model path="units/pd2_mod_almir/architecture/almir_elec/almir_elec_wall" unload="true"/>
+		<object path="units/pd2_mod_almir/architecture/almir_elec/almir_elec_wall" unload="true"/>
+		<unit path="units/pd2_mod_almir/architecture/almir_elec/almir_elec_wall" unload="true"/>
+		<model path="units/pd2_mod_almir/architecture/almir_elec/almir_elec_wall_door" unload="true"/>
+		<object path="units/pd2_mod_almir/architecture/almir_elec/almir_elec_wall_door" unload="true"/>
+		<unit path="units/pd2_mod_almir/architecture/almir_elec/almir_elec_wall_door" unload="true"/>
+	</add>
+	<add from_db="true">
+		<material_config path="units/payday2/architecture/com_int_election/com_int_election" unload="true"/>
+	</add>
 	<add from_db="true" path="units/pd2_dlc_casino/architecture/cas_elevator_door/cas_elevator_door" type="unit">
 		<material_config path="units/pd2_dlc_casino/architecture/cas_elevator_door/cas_elevator_door" unload="true"/>
 		<object path="units/pd2_dlc_casino/architecture/cas_elevator_door/cas_elevator_door" unload="true"/>
@@ -188,7 +202,6 @@
 		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_03" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
 		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_4" unload="true"/>
 		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_4" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_4" unload="true"/>
@@ -210,5 +223,185 @@
 		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_7" unload="true"/>
 		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_skylight_main_hall/cas_int_skylight_main_hall_debris_7" unload="true"/>
 		<effect load="true" path="effects/payday2/particles/window/mallcrasher_window_large" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+	</add>
+	<add from_db="true" path="environments/pd2_are_corridors_bright/pd2_are_corridors_bright" type="environment">
+		<environment path="environments/pd2_are_corridors_bright/pd2_are_corridors_bright"/>
+		<material_config path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
+		<scene path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars" type="scene">
+		<material_config path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
+		<scene path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_foggy_bright/pd2_env_foggy_bright" type="environment">
+		<environment path="environments/pd2_env_foggy_bright/pd2_env_foggy_bright"/>
+		<material_config path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+		<scene path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark" type="scene">
+		<material_config path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+		<scene path="core/environments/skies/sky_0902_overcast_dark/sky_0902_overcast_dark"/>
+	</add>
+	<add from_db="true" path="environments/env_cafe/env_cafe" type="environment">
+		<environment path="environments/env_cafe/env_cafe"/>
+		<material_config path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+		<scene path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_2100_moon/sky_2100_moon" type="scene">
+		<material_config path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+		<scene path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+	</add>
+	<add from_db="true" path="environments/pd2_nail_event_01/pd2_nail_event_01" type="environment">
+		<environment path="environments/pd2_nail_event_01/pd2_nail_event_01"/>
+		<material_config path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+		<scene path="core/environments/skies/sky_2100_moon/sky_2100_moon"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_wd2_evening/pd2_env_wd2_evening" type="environment">
+		<environment path="environments/pd2_env_wd2_evening/pd2_env_wd2_evening"/>
+		<material_config path="core/environments/skies/sky_1945_sunset/sky_1945_sunset"/>
+		<scene path="core/environments/skies/sky_1945_sunset/sky_1945_sunset"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_1945_sunset/sky_1945_sunset" type="scene">
+		<material_config path="core/environments/skies/sky_1945_sunset/sky_1945_sunset"/>
+		<scene path="core/environments/skies/sky_1945_sunset/sky_1945_sunset"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_born_outdoor_darker/pd2_env_born_outdoor_darker" type="environment">
+		<environment path="environments/pd2_env_born_outdoor_darker/pd2_env_born_outdoor_darker"/>
+		<material_config path="core/environments/skies/sky_1530_low_sun_clouds/sky_1530_low_sun_clouds"/>
+		<scene path="core/environments/skies/sky_1530_low_sun_clouds/sky_1530_low_sun_clouds"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_1530_low_sun_clouds/sky_1530_low_sun_clouds" type="scene">
+		<material_config path="core/environments/skies/sky_1530_low_sun_clouds/sky_1530_low_sun_clouds"/>
+		<scene path="core/environments/skies/sky_1530_low_sun_clouds/sky_1530_low_sun_clouds"/>
+	</add>
+	<add from_db="true" path="environments/pd2_mcmansion_indoor_dark/pd2_mcmansion_indoor_dark" type="environment">
+		<environment path="environments/pd2_mcmansion_indoor_dark/pd2_mcmansion_indoor_dark"/>
+		<material_config path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+		<scene path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon" type="scene">
+		<material_config path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+		<scene path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+	</add>
+	<add from_db="true" path="environments/pd2_cash/env_cash_01" type="environment">
+		<environment path="environments/pd2_cash/env_cash_01"/>
+		<material_config path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
+		<scene path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
+	</add>
+	<add from_db="true" path="environments/casino/env_casino_01" type="environment">
+		<environment path="environments/casino/env_casino_01"/>
+		<material_config path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
+		<scene path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/cas/cas_carpet_2x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/cas/cas"/>
+		<object path="units/payday2/architecture/cas/cas_carpet_2x4m_a"/>
+		<unit path="units/payday2/architecture/cas/cas_carpet_2x4m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_carpet" type="unit">
+		<material_config path="units/payday2/architecture/com_int_gallery/com_int_gallery"/>
+		<object path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_carpet"/>
+		<unit path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_carpet"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_parquet" type="unit">
+		<material_config path="units/payday2/architecture/com_int_gallery/com_int_gallery"/>
+		<object path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_parquet"/>
+		<unit path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_parquet"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_floor_4x4m_a_parquet" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_floor_4x4m_a_parquet"/>
+		<unit path="units/payday2/architecture/lux/lux_int_floor_4x4m_a_parquet"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet_corner" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet_corner"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet_corner"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet_end" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet_end"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet_end"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet_tcross" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet_tcross"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_path_parquet_carpet_tcross"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_floor_1x1m_a_parquet" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_floor_1x1m_a_parquet"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_floor_1x1m_a_parquet"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_1x1m" type="unit">
+		<material_config path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet"/>
+		<object path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_1x1m"/>
+		<unit path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_1x1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_lowered" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_lowered"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_lowered"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_raised" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_raised"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_raised"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_ceiling_50x50cm_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int_a"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_ceiling_50x50cm_a"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_ceiling_50x50cm_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_ceiling_1x1m_a_cork" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_ceiling_1x1m_a_cork"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_ceiling_1x1m_a_cork"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_b" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_b"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_a"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_wood" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_wood"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_wood"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_floor_carpet_4x4m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_floor_a"/>
+		<object path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_floor_carpet_4x4m"/>
+		<unit path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_floor_carpet_4x4m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_a"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_cork_light" type="unit">
+		<unit path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_cork_light"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_cork_light"/>
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
 	</add>
 </table>
