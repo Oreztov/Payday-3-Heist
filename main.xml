@@ -1,9 +1,28 @@
 <table min_lib_ver="4.5" name="The Payday 3 Heist">
+	<instance id="almir_store">
+		<packages>
+			<value_node value="levels/instances/unique/are_small_room_001/world"/>
+			<value_node value="levels/instances/unique/are_small_room_001/world_sounds"/>
+			<value_node value="levels/instances/unique/are_small_room_001/world/world"/>
+		</packages>
+	</instance>
+	<instance id="viklund_store">
+		<packages/>
+	</instance>
+	<instance id="star_store">
+		<packages/>
+	</instance>
+	<instance id="ilija_store">
+		<packages/>
+	</instance>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<level ai_group_type="america" briefing_dialog="Play_pln_ed3_brf_b" cube="cube_apply_heist_bank" id="alm1" intro_event="Play_pln_ed3_intro_a" load_screen="guis/dlcs/pic/textures/loading/job_electionday_03" max_bags="16" music="heist" outro_event="Play_pln_ed3_end_a">
+	<level ai_group_type="america" briefing_dialog="Play_pln_ed3_brf_b" cube="cube_apply_heist_bank" id="alm1" intro_event="Play_pln_ed3_intro_a" load_screen="guis/dlcs/pic/textures/loading/job_electionday_03" max_bags="16" music="heist">
 		<assets/>
+		<outro_event>
+			<value_node value="Play_pln_ed3_end_a"/>
+		</outro_event>
 		<packages>
 			<value_node value="packages/narr_election3"/>
 			<value_node value="packages/job_election_day"/>

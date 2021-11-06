@@ -1,0 +1,84 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" type="unit">
+		<font path="fonts/font_caslon"/>
+		<material_config path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon"/>
+		<object path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon"/>
+		<unit path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" type="unit">
+		<font path="fonts/font_dunton_writing"/>
+		<material_config path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton"/>
+		<object path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton"/>
+		<unit path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_wood" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_wood"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_wood"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_floor_4x4m_a_parquet"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_wood" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_wood"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_wood"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_generic_07" type="unit">
+		<material_config path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_generic"/>
+		<object path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_generic_07"/>
+		<unit path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_generic_07"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_counter" type="unit">
+		<material_config path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_generic"/>
+		<object path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_counter"/>
+		<unit path="units/payday2/props/com_prop_store_shelves/com_prop_store_shelves_counter"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_trombone" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_trombone"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/car_window_small"/>
+		<object path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_trombone"/>
+		<sequence_manager path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_trombone"/>
+		<unit path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_trombone"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_cello" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_violin"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/car_window_small"/>
+		<object path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_cello"/>
+		<sequence_manager path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_cello"/>
+		<unit path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_cello"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_trumpet" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_trombone"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/car_window_small"/>
+		<object path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_trumpet"/>
+		<sequence_manager path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_trumpet"/>
+		<unit path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_trumpet"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_flute" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_flute"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/payday2/particles/window/car_window_small"/>
+		<object path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_flute"/>
+		<sequence_manager path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_flute"/>
+		<unit path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_flute"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_harp" type="unit">
+		<unit path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_harp"/>
+		<object path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_harp"/>
+		<material_config path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_harp"/>
+		<sequence_manager path="units/payday2/props/lxa_prop_gallery_instrument/lxa_prop_gallery_instrument_harp"/>
+		<effect load="true" path="effects/payday2/particles/window/car_window_small"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+	</add>
+</table>

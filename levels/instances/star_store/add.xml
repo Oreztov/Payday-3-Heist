@@ -1,0 +1,99 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile" type="unit">
+		<font path="fonts/font_eurostile_ext"/>
+		<material_config path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile"/>
+		<object path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile"/>
+		<unit path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_carpet" type="unit">
+		<material_config path="units/payday2/architecture/com_int_gallery/com_int_gallery"/>
+		<object path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_carpet"/>
+		<unit path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_carpet"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_hallway_guitar/are_prop_hallway_basketball" type="unit">
+		<effect load="true" path="effects/particles/bullet_hit/misc/misc_tire"/>
+		<material_config path="units/pd2_dlc_arena/props/are_prop_hallway_guitar/are_prop_hallway_basketball"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_hallway_guitar/are_prop_hallway_basketball"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_hallway_guitar/are_prop_hallway_basketball"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_hallway_guitar/are_prop_hallway_basketball"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glow_trim" type="unit">
+		<material_config path="units/payday2/architecture/com_int_nightclub/com_int_nightclub"/>
+		<object path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glow_trim"/>
+		<unit path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_wall_2m_glow_trim"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_a_base_high/cas_prop_gambling_slotmachine_a_base_high" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_a_base_high/cas_prop_gambling_slotmachine_a_base_high"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_a_base_high/cas_prop_gambling_slotmachine_a_base_high"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_a_base_high/cas_prop_gambling_slotmachine_a_base_high"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_a/cas_prop_gambling_slotmachine_a" type="unit">
+		<effect load="true" path="effects/particles/dest/secret_stash_light_fixture_dest"/>
+		<effect load="true" path="effects/particles/dest/security_camera_dest"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_a/cas_prop_gambling_slotmachine_a"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_a/cas_prop_gambling_slotmachine_a"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_a/cas_prop_gambling_slotmachine_a"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_a/cas_prop_gambling_slotmachine_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_c_base_high/cas_prop_gambling_slotmachine_c_base_high" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_c_base_high/cas_prop_gambling_slotmachine_c_base_high"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_c_base_high/cas_prop_gambling_slotmachine_c_base_high"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_c_base_high/cas_prop_gambling_slotmachine_c_base_high"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_c/cas_prop_gambling_slotmachine_c" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/secret_stash_light_fixture_dest"/>
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_c/cas_prop_gambling_slotmachine_c"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_c/cas_prop_gambling_slotmachine_c"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_c/cas_prop_gambling_slotmachine_c"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_c/cas_prop_gambling_slotmachine_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_arcadecabinet/chl_prop_arcadecabinet" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_arcadecabinet/chl_prop_arcadecabinet"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_arcadecabinet/chl_prop_arcadecabinet"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_arcadecabinet/chl_prop_arcadecabinet"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_arcadecabinet/chl_prop_arcadecabinet"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_b_base_high/cas_prop_gambling_slotmachine_b_base_high" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_b_base_high/cas_prop_gambling_slotmachine_b_base_high"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_b_base_high/cas_prop_gambling_slotmachine_b_base_high"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_b_base_high/cas_prop_gambling_slotmachine_b_base_high"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_b/cas_prop_gambling_slotmachine_b" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/secret_stash_light_fixture_dest"/>
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_b/cas_prop_gambling_slotmachine_b"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_b/cas_prop_gambling_slotmachine_b"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_b/cas_prop_gambling_slotmachine_b"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_gambling_slotmachine_b/cas_prop_gambling_slotmachine_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_vending_machine_b/dah_prop_vending_machine_b" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_vending_machine_b/dah_prop_vending_machine_b"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_vending_machine_b/dah_prop_vending_machine_b"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_vending_machine_b/dah_prop_vending_machine_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_vending_machine_01_illum" type="unit">
+		<material_config path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_vending_machine_01"/>
+		<object path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_vending_machine_01_illum"/>
+		<unit path="units/pd2_dlc1/architecture/res_int_motel/res_int_motel_vending_machine_01_illum"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_floor_1x1m_a_parquet" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux"/>
+		<object path="units/payday2/architecture/lux/lux_int_floor_1x1m_a_parquet"/>
+		<unit path="units/payday2/architecture/lux/lux_int_floor_1x1m_a_parquet"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/editable_text_euro_stencil/editable_text_euro_stencil" type="unit">
+		<unit path="units/pd2_dlc_berry/props/editable_text_euro_stencil/editable_text_euro_stencil"/>
+		<object path="units/pd2_dlc_berry/props/editable_text_euro_stencil/editable_text_euro_stencil"/>
+		<material_config path="units/pd2_dlc_arena/props/editable_text_eurostile/editable_text_eurostile"/>
+		<font path="fonts/font_euro_stencil"/>
+	</add>
+</table>

@@ -400,8 +400,23 @@
 		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_a"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_cork_light" type="unit">
-		<unit path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_cork_light"/>
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
 		<object path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_cork_light"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_ceiling_4x4m_a_cork_light"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_blue" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_blue"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_blue"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_brown" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_brown"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_brown"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_green" type="unit">
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_green"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_green"/>
 		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
 	</add>
 </table>
