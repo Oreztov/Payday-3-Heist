@@ -15,6 +15,9 @@
 	<instance id="ilija_store">
 		<packages/>
 	</instance>
+	<instance id="tonis_store">
+		<packages/>
+	</instance>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
